@@ -30,8 +30,8 @@ class Index extends MyCtrl
                     return $this->newRes('201');
                 }
                 else{
-                    $hash = password_hash($admin_pwd, PASSWORD_DEFAULT);
-                    if (password_verify($admin_pwd,$hash)) {
+//                    $hash = password_hash($admin_pwd, PASSWORD_DEFAULT);
+                    if (password_verify($admin_pwd,$result['psw'])) {
                         return $this->newRes('200',['url'=>url('index/link/main')]);
                     } else {
                         return $this->newRes('202');

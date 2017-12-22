@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html";i:1513952835;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +25,7 @@
     <div class="menu-list-left"></div>
     <!--iframe-->
     <div class="menu-list-right">
-        <iframe width="100%" height="100%" src="{url('index/Link/main')}"></iframe>
+        <iframe width="100%" height="100%" src="<?php echo url("","",true,false);?>"></iframe>
     </div>
 </div>
 
