@@ -6,6 +6,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="robots" content="nofollow"/>
     <link href="__STATIC__/css/adminStyle.css" rel="stylesheet" type="text/css">
+    <script src="__STATIC__/js/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 <body>
 <div class="header">
@@ -21,10 +23,14 @@
 </div>
 <div id="content">
     <!--菜单列表-->
-    <div class="menu-list-left"></div>
+    <div class="menu-list-left" id="menu">
+    </div>
     <!--iframe-->
     <div class="menu-list-right"></div>
 </div>
 
 </body>
 </html>
+<script>
+    var menuUrl = "{:url('index/Other/getMenu')}";
+</script>
