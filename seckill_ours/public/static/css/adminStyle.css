@@ -3,7 +3,7 @@ body{color:#3d3d3d;background:#fff;margin:0;}
 *{font-size:14px;font-family:'microsoft yahei';}
 a{color:#3d3d3d;text-decoration:none;}
 ul,li {padding:0;list-style:none;margin:0;}
-.loginform{position:absolute;top:0;overflow:hidden;width:25%;margin:5% 37.5% 0 37.5%;overflow:hidden;background:rgba(204,204,204,.5);padding:2em;border-radius:5px;box-shadow:0 0 10px #999;}
+.loginform{position:absolute;top:0;overflow:hidden;width:25%;margin:3% 37.5% 0 37.5%;overflow:hidden;background:rgba(204,204,204,.5);padding:2em;border-radius:5px;box-shadow:0 0 10px #999;}
 .loginform h1{text-align:center;text-shadow:0 0 5px white;color:#666;font-weight:bold;margin:1.5em 0;font-size:1.2rem;}
 .loginform li{overflow:hidden;margin:8px 0;}
 .loginform li input{outline:none;}
@@ -17,6 +17,9 @@ ul,li {padding:0;list-style:none;margin:0;}
 .loginform li input:-moz-placeholder {color: #fff !important;}
 .loginform li input::-moz-placeholder {color: #fff !important;}
 .loginform li input:-ms-input-placeholder {color: #fff !important;}
+#checkadmin{width: 340px;height: 20px;text-align: center}
+#checkpwd{width: 340px;height: 20px;text-align: center}
+#checkcode{width: 340px;height: 20px;text-align: center}
 
 /*main主页面nav*/
 .header{background:#3d3d3d;color:#fff;height:75px;border-bottom:1px #383838 solid;}

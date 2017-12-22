@@ -21,9 +21,4 @@ class Link extends MyCtrl
     public function main(){
         return $this->fetch();
     }
-
-    public function test(){
-        $str = '$2y$10$4kAu4FNGuolmRmSSHgKEMe3DbG5pm3diikFkiAKNh.Sf1tPbB4uo2';
-        var_dump(strlen($str));
-    }
 }

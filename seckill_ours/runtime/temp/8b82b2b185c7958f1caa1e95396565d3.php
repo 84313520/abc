@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:76:"E:\appserv\www\seckill_ours\public/../application/index\view\link\login.html";i:1513935116;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +25,7 @@
             <div id="checkpwd"></div>
         </li>
         <li>
-            <img src="{:captcha_src()}" alt="captcha" onclick="changeCode(this)"/>
+            <img src="<?php echo captcha_src(); ?>" alt="captcha" onclick="changeCode(this)"/>
         </li>
         <li>
             <label>验证码：</label>
@@ -39,8 +40,8 @@
 </body>
 </html>
 <script>
-    var loginAjax="{:url('index/index/dologin')}";
-    var codeurl="{:captcha_src()}";
+    var loginAjax="<?php echo url('index/index/dologin'); ?>";
+    var codeurl="<?php echo captcha_src(); ?>";
 </script>
 <script src="__STATIC__/js/jquery.js"></script>
 <script src="__STATIC__/js/Particleground.js"></script>

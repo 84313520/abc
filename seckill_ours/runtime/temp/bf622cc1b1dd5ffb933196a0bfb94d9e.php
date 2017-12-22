@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"E:\appserv\www\seckill_ours\public/../application/index\view\link\main.html";i:1513933411;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
