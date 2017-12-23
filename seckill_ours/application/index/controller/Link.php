@@ -26,4 +26,30 @@ class Link extends MyCtrl
     public function goodshow(){
         return $this->fetch();
     }
+
+    //后台员管理-员工列表
+    public function staffmgmt(){
+        $input=input('get.input');//搜索
+        if(input('?get.select') && input('get.select')!='全部'){//锁定
+            $select=input('get.select');//使用、锁定
+            //$staffList=Cache::get('good_'.$select);//缓存搜索值
+            //if(!$staffList){
+            $staffList = Db::name("relative_staff_position")->alias('a')
+                ->join('staff w','a.sid = w.sid')
+                ->join('position c','a.pid = c.pid')
+                ->where('state',$select)
+                ->where('sname','like','%'.$input.'%')
+                ->paginate(3,false,['query'=>request()->param()]);
+            //Cache::set('good_'.$select,$staffList,3600);
+            //}
+        }else{
+            $staffList = Db::name("relative_staff_position")->alias('a')
+                ->join('staff w','a.sid = w.sid')
+                ->join('position c','a.pid = c.pid')
+                ->where('sname','like','%'.$input.'%')
+                ->paginate(3);
+        }
+        $this->assign('staffList', $staffList);
+        return $this->fetch();
+    }
 }
