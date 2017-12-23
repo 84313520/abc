@@ -1384,3 +1384,3362 @@
 [ info ] [ LOG ] INIT File
 
 ---------------------------------------------------------------
+[ 2017-12-22T19:16:32+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/lother/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/lother/getMenu [运行时间：0.031224s][吞吐率：32.03req/s] [内存消耗：1,600.21kb] [文件加载：40]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'lother',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:16:38+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.037052s][吞吐率：26.99req/s] [内存消耗：2,696.18kb] [文件加载：55]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [2]Invalid argument supplied for foreach()[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Query.php:687]
+
+---------------------------------------------------------------
+[ 2017-12-22T19:19:52+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.036066s][吞吐率：27.73req/s] [内存消耗：2,553.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:25:10+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.058373s][吞吐率：17.13req/s] [内存消耗：2,118.02kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:25:19+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.031457s][吞吐率：31.79req/s] [内存消耗：1,959.52kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:25:30+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.050561s][吞吐率：19.78req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:25:31+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.037481s][吞吐率：26.68req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:25:34+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.026452s][吞吐率：37.80req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:25:35+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.061314s][吞吐率：16.31req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:31:37+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.047259s][吞吐率：21.16req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:31:38+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.056302s][吞吐率：17.76req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:31:39+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.055620s][吞吐率：17.98req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:31:51+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.058267s][吞吐率：17.16req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:31:52+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.052467s][吞吐率：19.06req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:31:53+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.056970s][吞吐率：17.55req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:34:02+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.060311s][吞吐率：16.58req/s] [内存消耗：2,118.59kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:34:03+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.043346s][吞吐率：23.07req/s] [内存消耗：1,959.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:34:20+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.065829s][吞吐率：15.19req/s] [内存消耗：1,959.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:34:20+08:00 ] 127.0.0.1 127.0.0.1 POST /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.045051s][吞吐率：22.20req/s] [内存消耗：2,655.16kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:42:02+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.033460s][吞吐率：29.89req/s] [内存消耗：1,959.46kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:42:02+08:00 ] 127.0.0.1 127.0.0.1 POST /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.044195s][吞吐率：22.63req/s] [内存消耗：2,654.89kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:42:12+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.032667s][吞吐率：30.61req/s] [内存消耗：1,959.46kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:42:12+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.042128s][吞吐率：23.74req/s] [内存消耗：2,654.76kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:44:28+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.061277s][吞吐率：16.32req/s] [内存消耗：1,959.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:44:28+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.047768s][吞吐率：20.93req/s] [内存消耗：2,655.15kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:46:58+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.055092s][吞吐率：18.15req/s] [内存消耗：1,959.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:46:58+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.041759s][吞吐率：23.95req/s] [内存消耗：2,654.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:46:59+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.050331s][吞吐率：19.87req/s] [内存消耗：1,959.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:47:00+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.038725s][吞吐率：25.82req/s] [内存消耗：2,654.78kb] [文件加载：52]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:47:30+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.059439s][吞吐率：16.82req/s] [内存消耗：1,959.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:47:30+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.042289s][吞吐率：23.65req/s] [内存消耗：2,554.01kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:48:01+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.034822s][吞吐率：28.72req/s] [内存消耗：2,553.60kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:49:02+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.490266s][吞吐率：2.04req/s] [内存消耗：2,749.29kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.207520s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.121451s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.pid' in 'on clause'[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T19:49:04+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.482196s][吞吐率：2.07req/s] [内存消耗：2,749.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.196495s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.121097s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.pid' in 'on clause'[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T19:49:15+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.517213s][吞吐率：1.93req/s] [内存消耗：2,749.05kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.238662s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.129643s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.pid' in 'on clause'[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T19:49:16+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.491218s][吞吐率：2.04req/s] [内存消耗：2,749.05kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.225429s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.108582s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.pid' in 'on clause'[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T19:52:31+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.493853s][吞吐率：2.02req/s] [内存消耗：2,749.33kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.202589s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.122545s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.pid' in 'on clause'[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T19:52:32+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.484357s][吞吐率：2.06req/s] [内存消耗：2,749.20kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.211336s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.095810s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.pid' in 'on clause'[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T19:53:59+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.405174s][吞吐率：2.47req/s] [内存消耗：2,749.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.187630s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.109417s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.pid' in 'on clause'[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T19:54:47+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.048905s][吞吐率：20.45req/s] [内存消耗：2,553.94kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T19:55:45+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.460166s][吞吐率：2.17req/s] [内存消耗：2,749.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.206312s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.123038s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.pid' in 'on clause'[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T19:55:48+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.452412s][吞吐率：2.21req/s] [内存消耗：2,749.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.206229s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.119656s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.pid' in 'on clause'[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T19:55:55+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.501424s][吞吐率：1.99req/s] [内存消耗：2,749.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.217982s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.128248s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 's.pid' in 'on clause'[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T19:56:20+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.337085s][吞吐率：2.97req/s] [内存消耗：2,596.86kb] [文件加载：50]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.177635s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.124090s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:00:21+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.313098s][吞吐率：3.19req/s] [内存消耗：2,596.92kb] [文件加载：50]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.149024s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.120456s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:04:10+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.323880s][吞吐率：3.09req/s] [内存消耗：2,731.84kb] [文件加载：54]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158813s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'seckill_ours.staff' doesn't exist[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\connector\Mysql.php:63]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:04:24+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getMenu
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getMenu [运行时间：0.364412s][吞吐率：2.74req/s] [内存消耗：2,597.31kb] [文件加载：50]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getMenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.197141s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.121498s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:05:41+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.029597s][吞吐率：33.79req/s] [内存消耗：1,959.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:05:41+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.308749s][吞吐率：3.24req/s] [内存消耗：2,697.85kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.145647s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.108914s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:06:28+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.046285s][吞吐率：21.61req/s] [内存消耗：1,959.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:06:29+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.500510s][吞吐率：2.00req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.190146s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.110980s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.140685s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:08:36+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.033442s][吞吐率：29.90req/s] [内存消耗：1,959.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:08:37+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.484552s][吞吐率：2.06req/s] [内存消耗：2,749.89kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.216986s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.119855s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'opid' in field list is ambiguous[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:08:43+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.050754s][吞吐率：19.70req/s] [内存消耗：1,959.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:08:43+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.443887s][吞吐率：2.25req/s] [内存消耗：2,749.91kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.190761s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.126856s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'opid' in field list is ambiguous[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:08:52+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.050578s][吞吐率：19.77req/s] [内存消耗：1,959.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:08:52+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.495540s][吞吐率：2.02req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.173377s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.149801s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.120477s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:09:21+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.049469s][吞吐率：20.21req/s] [内存消耗：1,959.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:09:22+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.432541s][吞吐率：2.31req/s] [内存消耗：2,749.91kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.173707s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.122331s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'opid' in field list is ambiguous[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:11:42+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.034832s][吞吐率：28.71req/s] [内存消耗：1,959.46kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:11:43+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.480236s][吞吐率：2.08req/s] [内存消耗：2,749.49kb] [文件加载：57]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.235626s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.123818s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'opid' in field list is ambiguous[D:\AppServ\www\seckill_ours\thinkphp\library\think\db\Connection.php:383]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:13:00+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.050185s][吞吐率：19.93req/s] [内存消耗：1,959.75kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:13:01+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.474303s][吞吐率：2.11req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.171193s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.119780s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.140992s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:18:26+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.036205s][吞吐率：27.62req/s] [内存消耗：2,118.53kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:18:27+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.507326s][吞吐率：1.97req/s] [内存消耗：2,721.14kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.199048s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.131206s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.128976s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:18:50+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.047877s][吞吐率：20.89req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:18:51+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.501810s][吞吐率：1.99req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.199027s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.139700s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.110570s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:19:00+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.050741s][吞吐率：19.71req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:19:01+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.417431s][吞吐率：2.40req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.152599s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.101735s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.118757s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:19:17+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.058714s][吞吐率：17.03req/s] [内存消耗：2,118.77kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:19:17+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.405127s][吞吐率：2.47req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138906s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.102538s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.111218s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:19:18+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.054970s][吞吐率：18.19req/s] [内存消耗：1,959.74kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:19:19+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.487561s][吞吐率：2.05req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.186709s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.122193s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.130178s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:20:19+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.050531s][吞吐率：19.79req/s] [内存消耗：1,959.74kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:20:19+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.475245s][吞吐率：2.10req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.172214s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.106865s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.148050s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:20:33+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.046105s][吞吐率：21.69req/s] [内存消耗：2,118.81kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:20:34+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.540691s][吞吐率：1.85req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.238798s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.126577s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.131410s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:20:34+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.051010s][吞吐率：19.60req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:20:34+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.519983s][吞吐率：1.92req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.200686s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.110497s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.158593s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:20:57+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.045835s][吞吐率：21.82req/s] [内存消耗：2,118.81kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:20:58+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.458560s][吞吐率：2.18req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.169802s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.106845s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.140999s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:20:58+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.046791s][吞吐率：21.37req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:20:59+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.471361s][吞吐率：2.12req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.174410s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.124418s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.134794s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:21:29+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.033457s][吞吐率：29.89req/s] [内存消耗：2,118.79kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:21:30+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.442363s][吞吐率：2.26req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134209s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.092734s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.164516s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:21:30+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.048005s][吞吐率：20.83req/s] [内存消耗：1,959.77kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:21:31+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.399782s][吞吐率：2.50req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.159103s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.091408s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.100842s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:22:12+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.051174s][吞吐率：19.54req/s] [内存消耗：2,118.87kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:22:12+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.456970s][吞吐率：2.19req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.157858s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.125763s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.129191s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:22:21+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.033019s][吞吐率：30.29req/s] [内存消耗：2,118.98kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:22:21+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.454867s][吞吐率：2.20req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.160727s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.110654s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.129058s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:25:07+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.068963s][吞吐率：14.50req/s] [内存消耗：2,118.80kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:25:08+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.430447s][吞吐率：2.32req/s] [内存消耗：2,721.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.154212s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.122037s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.100419s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:25:23+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.043541s][吞吐率：22.97req/s] [内存消耗：2,118.91kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:25:23+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.504689s][吞吐率：1.98req/s] [内存消耗：2,721.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.178772s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.163437s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.111547s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:29:25+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.043720s][吞吐率：22.87req/s] [内存消耗：2,118.87kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:29:25+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.482416s][吞吐率：2.07req/s] [内存消耗：2,721.14kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.175643s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.133631s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.129761s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:30:46+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.056813s][吞吐率：17.60req/s] [内存消耗：2,119.12kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:30:47+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.462046s][吞吐率：2.16req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.141490s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.133860s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.130005s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:31:09+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.036209s][吞吐率：27.62req/s] [内存消耗：1,959.76kb] [文件加载：47]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:31:10+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.469144s][吞吐率：2.13req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.168979s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.121033s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.136453s ]
+
+---------------------------------------------------------------
+[ 2017-12-22T20:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/link/main
+[ log ] 127.0.0.1/seckill_ours/public/index/link/main [运行时间：0.055509s][吞吐率：18.02req/s] [内存消耗：2,118.63kb] [文件加载：49]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'link',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Link->main[ D:\AppServ\www\seckill_ours\application\index\controller\Link.php ]
+[ info ] [ VIEW ] D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-12-22T20:36:55+08:00 ] 127.0.0.1 127.0.0.1 GET /seckill_ours/public/index/other/getmenu.html
+[ log ] 127.0.0.1/seckill_ours/public/index/other/getmenu.html [运行时间：0.486137s][吞吐率：2.06req/s] [内存消耗：2,721.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\AppServ\www\seckill_ours\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'other',
+    2 => 'getmenu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'referer' => 'http://127.0.0.1/seckill_ours/public/index/link/main',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=7o0dbasn9vif17mo07e13kve25',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Other->getMenu[ D:\AppServ\www\seckill_ours\application\index\controller\Other.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.179776s ] mysql:dbname=seckill_ours;host=120.79.53.186;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_staff` [ RunTime:0.101933s ]
+[ sql ] [ SQL ] SELECT * FROM `t_staff` `s` INNER JOIN `t_relative_staff_position` `sp` ON `sp`.`sid`=`s`.`sid` INNER JOIN `t_position` `p` ON `sp`.`pid`=`p`.`pid` INNER JOIN `t_right` `r` ON `p`.`pid`=`r`.`pid` INNER JOIN `t_operation` `op` ON `r`.`opid`=`op`.`opid` WHERE  `s`.`sid` = '1001' [ RunTime:0.148202s ]
+
+---------------------------------------------------------------

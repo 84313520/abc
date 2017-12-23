@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:75:"D:\AppServ\www\seckill_ours\public/../application/index\view\link\main.html";i:1514016391;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,10 +21,10 @@
     </div>
     <div class="fr top-link">
         <a href="#" target="_blank" title="访问站点"><i style="background:url('__STATIC__/img/admin_bg.png') -5px -9px"></i><span>访问站点</span></a>
-        <a href="admin_list.html" target="mainCont" title="DeathGhost"><i style="background:url('__STATIC__/img/admin_bg.png') -37px -9px;"></i><span>{$Think.session.admininfo['pname']}：{$Think.session.admininfo['sid']}</span></a>
+        <a href="admin_list.html" target="mainCont" title="DeathGhost"><i style="background:url('__STATIC__/img/admin_bg.png') -37px -9px;"></i><span><?php echo \think\Session::get('admininfo')['pname']; ?>：<?php echo \think\Session::get('admininfo')['sid']; ?></span></a>
         <a href="#" title="修改密码"><i style="background:url('__STATIC__/img/admin_bg.png') -70px -9px;"></i><span>清除缓存</span></a>
         <a href="revise_password.html" target="mainCont" title="修改密码"><i style="background:url('__STATIC__/img/admin_bg.png') -104px -9px;"></i><span>修改密码</span></a>
-        <a href="{:url('index/Login/logout')}" title="安全退出" style="background:rgb(60,60,60);"><i style="background:url('__STATIC__/img/admin_bg.png') -135px -6px;"></i><span>安全退出</span></a>
+        <a href="<?php echo url('index/Login/logout'); ?>" title="安全退出" style="background:rgb(60,60,60);"><i style="background:url('__STATIC__/img/admin_bg.png') -135px -6px;"></i><span>安全退出</span></a>
     </div>
 </div>
 <div id="content">
@@ -54,6 +55,6 @@
 </body>
 </html>
 <script>
-    var menuUrl="{:url('index/Other/getMenu')}";
+    var menuUrl="<?php echo url('index/Other/getMenu'); ?>";
 </script>
 <script src="__JS__/main.js"></script>

@@ -34,16 +34,16 @@ class MyCtrl extends Controller
      * */
     public function _initialize()
     {
-        return;
+//        return;
         if(empty(Session::get('nowLogin'))){
             $request = Request::instance();
             $c = $request->controller();
             $a = $request->action();
 
-            if($c!= 'Link' || ($a != 'home' && $a != 'login' )){
+            if($c!= 'Link' || ($a != 'login' )){
 
-                if($c!= 'User' || ( $a != 'dologin' && $a != 'islogin')){
-                    if(empty(Session::get('nowLogin'))){
+                if($c!= 'Index' || ( $a != 'dologin' && $a != 'islogin')){
+                    if(empty(Session::get('admininfo'))){
                        $this->error('非法操作!','Link/login');
                         die(0);
                     }
