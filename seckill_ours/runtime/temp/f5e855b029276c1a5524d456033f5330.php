@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"D:\AppServ\www\abc\seckill_ours\public/../application/index\view\link\staffmgmt.html";i:1514033452;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"D:\AppServ\www\abc\seckill_ours\public/../application/index\view\link\staffmgmt.html";i:1514088872;}*/ ?>
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -7,18 +7,17 @@
     <link href="__STATIC__/css/adminStyle.css" rel="stylesheet" type="text/css">
     <link href="__STATIC__/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <script src="__STATIC__/js/jquery.js"></script>
-    <script src="__STATIC__/js/public_v.js"></script>
 </head>
 <body>
 <div class="wrap">
     <div class="page-title">
         <span class="modular fl"><i class="user"></i><em>员工列表</em></span>
-        <span class="modular fr"><a href="add_user.html" class="pt-link-btn">+添加新员工</a></span>
+        <span class="modular fr"><a href="<?php echo url('index/Link/addstaff'); ?>" class="pt-link-btn">+添加新员工</a></span>
     </div>
     <div class="operate">
         <form>
             <select class="inline-select" id="lock">
-                <option value="">全部</option>
+                <option value="全部">全部</option>
                 <option value="clock">锁定</option>
                 <option value="normal">使用</option>
             </select>
@@ -27,6 +26,7 @@
         </form>
     </div>
     <table class="list-style Interlaced">
+        <th class="center"><input type="checkbox"></th>
         <th class="center">账号</th>
         <th class="center">用户名称</th>
         <th class="center">用户职位</th>
@@ -37,6 +37,8 @@
         <tr>
             <td class="center">
                 <input type="checkbox">
+            </td>
+            <td class="center">
                 <?php echo $staff['sid']; ?>
             </td>
             <td class="center">
@@ -58,8 +60,7 @@
                 <input type="button" value="使用" onclick="use('<?php echo $staff['sid']; ?>')" class="tdBtn"/>
                 <?php break; default: ?>默认情况
                 <?php endswitch; ?>
-
-
+                <input type="button" value="修改" onclick="toUpdate('<?php echo $staff['sid']; ?>')" class="tdBtn"/>
             </td>
         </tr>
         <?php endforeach; endif; else: echo "" ;endif; ?>
@@ -68,8 +69,6 @@
     <div style="overflow:hidden;">
         <!-- Operation -->
         <div class="BatchOperation fl">
-            <input type="checkbox" id="del"/>
-            <label for="del" class="btnStyle middle">全选</label>
             <input type="button" value="批量删除" class="btnStyle"/>
         </div>
         <!-- turn page -->
@@ -80,46 +79,9 @@
 </div>
 </body>
 <script>
-//   搜索
-    function changed(){
-        $.ajax({
-            url:"<?php echo url('/index/link/staff_list'); ?>",
-            method:"get",
-            data:{'select':$('#lock').val(),'input':$('#input').val()},
-            success:function (res){
-                $('body').html(res);
-            }
-        });
-    }
-//  锁定
-    function clock(sid){
-        $.ajax({
-            url:"<?php echo url('/index/Staff/clockStaff'); ?>",
-            method:"get",
-            data:{'sid':sid},
-            success:function (res){
-                //$('body').html(res);
-                alert(res.msg);
-                if(res.code=='300'){
-                    location.reload();
-                }
-            }
-        });
-    }
-//    使用
-    function use(sid){
-        $.ajax({
-            url:"<?php echo url('/index/Staff/useStaff'); ?>",
-            method:"get",
-            data:{'sid':sid},
-            success:function (res){
-                //$('body').html(res);
-                alert(res.msg);
-                if(res.code=='302'){
-                    location.reload();
-                }
-            }
-        });
-    }
+    var changedUrl="<?php echo url('/index/link/staffmgmt'); ?>";
+    var clockUrl="<?php echo url('/index/Staff/clockStaff'); ?>";
+    var useUrl="<?php echo url('/index/Staff/useStaff'); ?>";
 </script>
+<script type="text/javascript" src="__STATIC__/js/staffmgmt.js"></script>
 </html>

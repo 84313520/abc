@@ -29,7 +29,11 @@ class Link extends MyCtrl
 
     //后台员管理-员工列表
     public function staffmgmt(){
-        $input=input('get.input');//搜索
+        if(input('?get.input')){
+            $input=input('get.input');//输入值
+        }else{
+            $input='';
+        }
         if(input('?get.select') && input('get.select')!='全部'){//锁定
             $select=input('get.select');//使用、锁定
             //$staffList=Cache::get('good_'.$select);//缓存搜索值
@@ -52,4 +56,21 @@ class Link extends MyCtrl
         $this->assign('staffList', $staffList);
         return $this->fetch();
     }
+    //后台员工管理-添加/修改员工资料
+    public function addstaff(){
+        //参数：添加或修改
+        $this->assign('action', '');
+        return $this->fetch();
+    }
+    //后台订单管理-未支付订单
+    public function unpaid(){
+        return $this->fetch();
+    }
+    //后台订单管理-已支付订单
+    public function paid(){
+        return $this->fetch();
+    }
+
+
+
 }
