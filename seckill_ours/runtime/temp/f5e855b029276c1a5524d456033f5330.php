@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"D:\AppServ\www\abc\seckill_ours\public/../application/index\view\link\staffmgmt.html";i:1514088872;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:84:"D:\AppServ\www\abc\seckill_ours\public/../application/index\view\link\staffmgmt.html";i:1514096621;}*/ ?>
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -60,7 +60,7 @@
                 <input type="button" value="使用" onclick="use('<?php echo $staff['sid']; ?>')" class="tdBtn"/>
                 <?php break; default: ?>默认情况
                 <?php endswitch; ?>
-                <input type="button" value="修改" onclick="toUpdate('<?php echo $staff['sid']; ?>')" class="tdBtn"/>
+                <a href="<?php echo url('/index/link/addstaff'); ?>?sid=<?php echo $staff['sid']; ?>" class="tdBtn">修改信息</a>
             </td>
         </tr>
         <?php endforeach; endif; else: echo "" ;endif; ?>

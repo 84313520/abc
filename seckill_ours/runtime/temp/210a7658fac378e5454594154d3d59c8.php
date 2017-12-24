@@ -1,11 +1,11 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:83:"D:\AppServ\www\abc\seckill_ours\public/../application/index\view\link\addstaff.html";i:1514037569;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:83:"D:\AppServ\www\abc\seckill_ours\public/../application/index\view\link\addstaff.html";i:1514102313;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>添加用户</title>
-    <script src="view/js/angular.js"></script>
-    <script src="view/js/jquery-1.12.3.min.js"></script>
+    <script src="__STATIC__/js/angular.js"></script>
+    <script src="__STATIC__/js/jquery-1.12.3.min.js"></script>
     <style>
         body {
             padding: 20px;
@@ -50,17 +50,19 @@
 <div id="cover">
     <div id="addStaff">
         <form ng-app="myApp" name="myForm" ng-controller="formCtrl" novalidate method="post"
-              action="index.php?c=Staff&a=add" enctype="multipart/form-data">
-            <p id="title">当前位置：系统管理/员工管理/<input name="act" ng-if="action=='add'" value="添加员工" readonly>
-            <input name="act" ng-if="action=='update'" value="修改员工信息" readonly></p>
+              action="<?php echo url('index/Staff/add'); ?>" enctype="multipart/form-data">
+            <p id="title">
+                <?php switch($sid): case "none": ?>添加员工<?php break; default: ?>修改员工信息/  当前员工：<input name="act" value="<?php echo $sid; ?>" readonly>
+                <?php endswitch; ?>
+            </p>
             <table>
                 <tr>
                     <td class="t1">账号：</td>
                     <td  class="t2">
-                        <input ng-if="action=='add'" type="text" ng-model="id" name="id"
-                               ng-minlenght="5" ng-maxlenght="26" required>
-                        <input ng-if="action=='update'" type="text" ng-model="id" name="id"
-                               ng-minlenght="5" ng-maxlenght="26" readonly>
+                        <?php switch($sid): case "none": ?><input type="text" ng-model="id" name="id"
+                                                  ng-minlenght="5" ng-maxlenght="26" required><?php break; default: ?><input type="text" ng-model="id" name="id"
+                                          ng-minlenght="5" ng-maxlenght="26" readonly>
+                        <?php endswitch; ?>
                     </td>
                     <td class="t3">
                         <span ng-show="myForm.id.$dirty && myForm.id.$invalid">
@@ -122,29 +124,36 @@
                 <tr>
                     <td class="t1">用户状态：</td>
                     <td class="t2">
-                        <select name="state" ng-if="action=='add'">
+                        <?php switch($sid): case "none": ?>
+                        <select name="state">
                             <option>使用</option>
                             <option>锁定</option>
                         </select>
+                        <?php break; default: ?>
                         <select name="state" ng-if="action=='update'">
-                            <option ng-if="state=='使用'" selected>使用</option>
-                            <option ng-if="state=='使用'">锁定</option>
-                            <option ng-if="state=='锁定'">使用</option>
-                            <option ng-if="state=='锁定'" selected>锁定</option>
+                            <option ng-if="state=='nomal'" value="" selected>使用</option>
+                            <option ng-if="state=='nomal'">锁定</option>
+                            <option ng-if="state=='clock'">使用</option>
+                            <option ng-if="state=='clock'" selected>锁定</option>
                         </select>
+                        <?php endswitch; ?>
                     </td>
                 </tr>
                 <tr>
                     <td class="t1"></td>
-                    <td><input ng-if="action=='update'" type="submit" ng-disabled="myForm.id.$dirty && myForm.id.$invalid ||
-                    myForm.name.$dirty && myForm.name.$invalid || cmp || myForm.pwd.$pristine || myForm.pwd1.$pristine ||
-                    myForm.pwd1.$dirty && myForm.pwd1.$invalid">
-                        <input ng-if="action=='add'" type="submit" ng-disabled="myForm.id.$dirty && myForm.id.$invalid ||
+                    <td>
+                        <?php switch($sid): case "none": ?>
+                        <input type="submit" ng-disabled="myForm.id.$dirty && myForm.id.$invalid ||
                     myForm.name.$dirty && myForm.name.$invalid || cmp || myForm.pwd.$pristine ||
                     myForm.name.$pristine || myForm.pwd1.$pristine || myForm.id.$pristine ||
                     myForm.pwd1.$dirty && myForm.pwd1.$invalid">
+                        <?php break; default: ?>
+                        <input type="submit" ng-disabled="myForm.id.$dirty && myForm.id.$invalid ||
+                    myForm.name.$dirty && myForm.name.$invalid || cmp || myForm.pwd.$pristine || myForm.pwd1.$pristine ||
+                    myForm.pwd1.$dirty && myForm.pwd1.$invalid">
+                        <?php endswitch; ?>
                         <input type="reset">
-                        <a href="index.php?c=Staff&a=staManage">返回</a>
+                        <a href="<?php echo url('index/Link/staffmgmt'); ?>">返回</a>
                     </td>
                 </tr>
             </table>
@@ -165,12 +174,11 @@
     app.controller('formCtrl', function ($scope,$http) {
         $http({
             method:"post",
-            url:"index.php?c=Staff&a=getPosition"
+            url:"<?php echo url('index/Staff/getPosition'); ?>"
         }).then(function (res) {
             console.log(res.data);
             //console.log(res.data.staff);
             if(res.data.staff!=undefined){
-                $scope.action='update';
                 $scope.posit=res.data.position;
                 $scope.staff=res.data.staff[0];
                 $scope.id=res.data.staff[0].sid;
@@ -179,7 +187,6 @@
                 // $scope.=res.data.staff[0].sname;
             }
             else {
-                $scope.action='add';
                 $scope.posit=res.data;
                 $scope.id='';
             }

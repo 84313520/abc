@@ -38,7 +38,7 @@ class Link extends MyCtrl
             $select=input('get.select');//使用、锁定
             //$staffList=Cache::get('good_'.$select);//缓存搜索值
             //if(!$staffList){
-            $staffList = Db::name("relative_staff_position")->alias('a')
+            $staffList = Db::name("staff_position")->alias('a')
                 ->join('staff w','a.sid = w.sid')
                 ->join('position c','a.pid = c.pid')
                 ->where('state',$select)
@@ -47,7 +47,7 @@ class Link extends MyCtrl
             //Cache::set('good_'.$select,$staffList,3600);
             //}
         }else{
-            $staffList = Db::name("relative_staff_position")->alias('a')
+            $staffList = Db::name("staff_position")->alias('a')
                 ->join('staff w','a.sid = w.sid')
                 ->join('position c','a.pid = c.pid')
                 ->where('sname','like','%'.$input.'%')
@@ -59,7 +59,13 @@ class Link extends MyCtrl
     //后台员工管理-添加/修改员工资料
     public function addstaff(){
         //参数：添加或修改
-        $this->assign('action', '');
+        if(input('?get.sid')){
+            $this->assign('sid',input('get.sid'));
+            setcookie('sid',input('get.sid'));
+        }else{
+            $this->assign('sid','none');
+            unset($_COOKIE['sid']);
+        }
         return $this->fetch();
     }
     //后台订单管理-未支付订单

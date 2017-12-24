@@ -37,5 +37,18 @@ class Staff extends MyCtrl
             }
         }
     }
-    //
+    //添加员工--获取页面信息
+    public function getPosition (){
+        if(isset($_COOKIE['sid'])){
+            $this->assign('sid',input('get.sid'));
+            setcookie('sid',input('get.sid'));
+        }else{
+            $this->assign('sid','none');
+            unset($_COOKIE['sid']);
+        }
+        return $this->fetch();
+
+
+
+    }
 }

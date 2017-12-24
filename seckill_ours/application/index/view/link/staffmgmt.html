@@ -62,7 +62,7 @@
                 {/case}
                 {default /}默认情况
                 {/switch}
-                <input type="button" value="修改" onclick="toUpdate('{$staff.sid}')" class="tdBtn"/>
+                <a href="{:url('/index/link/addstaff')}?sid={$staff.sid}" class="tdBtn">修改信息</a>
             </td>
         </tr>
         {/volist}
